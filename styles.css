@@ -1,0 +1,27 @@
+body {
+    background-color: #1F2937;
+}
+
+ul{
+    display: flex;
+    list-style: none;
+}
+
+li {
+    margin: 8px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+
+   
+  }
