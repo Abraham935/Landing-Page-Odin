@@ -2,13 +2,36 @@ body{
     margin: 0;
 }
 .container-1 {
-    padding-left: 300px;
-    padding-right: 300px;
+    padding-left: 200px;
+    padding-right: 250px;
     background-color: #1F2937;
     width: auto;
     margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 400px;
+    gap: 50px;
+}
+
+.left, .right {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding-top: 10px;
+
+   
+}
+
+.text {
+    width: 600px;
+    font-family: "Industry","sans-serif";
+    font-weight: 300;
+    text-transform: uppercase;
+    color: #fff;
     
 }
+
 
 .container-2 {
     background-color: white;
@@ -46,6 +69,13 @@ body{
 ul{
     display: flex;
     list-style: none;
+    font-family: 'Normative Pro', 'Segoe UI', Arial, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 19px;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+    color: #fff;
 }
 
 li {
@@ -53,28 +83,13 @@ li {
 }
 
 .header{
+    padding-left: 40px;
     display: flex;
     justify-content: space-between;
-}
-
-.left, .right {
-    display: flex;
-    align-items: center;
-    gap: 16px;
-
-   
-}
-
-.beginning {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    
+    background-color: #1f2c32
 }
 
 .image {
-    height: 200px;
-    width: 600px;
     display: flex;
     align-items: center;
     justify-content: center;
