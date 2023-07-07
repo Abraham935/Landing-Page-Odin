@@ -7,6 +7,11 @@ ul{
     list-style: none;
 }
 
+.container-1 {
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
 li {
     margin: 8px;
 }
@@ -14,8 +19,6 @@ li {
 .header{
     display: flex;
     justify-content: space-between;
-    padding-left: 100px;
-    padding-right: 100px;
 }
 
 .left, .right {
@@ -24,4 +27,24 @@ li {
     gap: 16px;
 
    
-  }
+}
+
+.beginning {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+.image {
+    height: 200px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: grey;
+}
+
+
+
+
