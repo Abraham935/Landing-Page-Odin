@@ -2,8 +2,8 @@ body{
     margin: 0;
 }
 .container-1 {
-    padding-left: 100px;
-    padding-right: 100px;
+    padding-left: 300px;
+    padding-right: 300px;
     background-color: #1F2937;
     width: auto;
     margin-bottom: 50px;
@@ -29,6 +29,18 @@ body{
 
 .container-3 {
     background-color: lightgray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 200px;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    text-align: center;
 }
 
 ul{
@@ -81,6 +93,22 @@ li {
 
 .info {
     text-align: center;
+}
+
+
+.container-4 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.more-info {
+    border-radius: 25px;
+    background: #73AD21;
+    padding: 20px; 
+    width: 200px;
+    height: 100px;
+    margin: 20px;
 }
 
 
