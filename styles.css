@@ -6,7 +6,7 @@ body{
     padding-right: 250px;
     background-color: #1F2937;
     width: auto;
-    margin-bottom: 50px;
+    padding-bottom: 50px;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -25,29 +25,49 @@ body{
 
 .text {
     width: 600px;
-    font-family: "Industry","sans-serif";
-    font-weight: 300;
-    text-transform: uppercase;
-    color: #fff;
+    font-family: "Segoe UI","Arial","sans-serif";
+    font-size: 18px;
+    line-height: 22px;
+    color: #b4b4b4;
     
+}
+
+h1 {
+    font-family: "Industry","sans-serif";
+    font-weight: 350;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: .25em;
+    color: #fff;
+    margin-bottom: -5px;
 }
 
 
 .container-2 {
-    background-color: white;
     padding-left: 40px;
     padding-right: 40px;
-    height: 150px;
+    height: 650px;
     display: flex;
     align-items: center;
-    justify-content: center;
     flex-direction: column;
-    margin-bottom: 40px;
-    
 }
 
 .title{
     text-align: center;
+    font-family: "Industry","sans-serif";
+    font-weight: 350;
+    text-transform: uppercase;
+    font-size: 60px;
+    line-height: 70px;
+    letter-spacing: .25em;
+    margin: 0;
+    padding-bottom: 40px;
+    padding-top: 30px;
+}
+
+.container-2, .title{
+    background-color: rgba(8, 6, 6, 0.815);
 }
 
 .container-3 {
@@ -83,7 +103,7 @@ li {
 }
 
 .header{
-    padding-left: 40px;
+    padding-left: 200px;
     display: flex;
     justify-content: space-between;
     background-color: #1f2c32
@@ -96,9 +116,6 @@ li {
     background-color: grey;
 }
 
-.title {
-    margin-left: 32px;
-}
 
 .seasons {
     display: flex;
@@ -108,6 +125,7 @@ li {
 
 .info {
     text-align: center;
+    display: flex;
 }
 
 
@@ -124,6 +142,16 @@ li {
     width: 200px;
     height: 100px;
     margin: 20px;
+}
+
+.description {
+    background-color: rgba(0, 0, 0, 0.24);
+    width: 400px;
+    line-height: 20px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+
 }
 
 
