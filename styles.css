@@ -69,7 +69,7 @@ h1 {
 }
 
 .container-2, .title{
-    background-color: #141414;
+    background-color: #0f1216;
 }
 
 .container-3 {
@@ -84,17 +84,18 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #1F2937;
     text-align: center;
+    background-color: #000;
 }
+
 
 ul{
     display: flex;
     list-style: none;
-    font-family: 'Normative Pro', 'Segoe UI', Arial, sans-serif;
+    font-family: "Normative Pro","Segoe UI","Arial,sans-serif";
     font-weight: 400;
-    font-size: 12px;
-    line-height: 19px;
+    font-size: 14px;
+    line-height: 16px;
     letter-spacing: 0.2em;
     text-transform: uppercase;
     color: #fff;
@@ -106,9 +107,10 @@ li {
 
 .header{
     padding-left: 200px;
+    padding-right: 200px;
     display: flex;
     justify-content: space-between;
-    background-color: #1f2c32
+    background-color: #000;
 }
 
 .image {
@@ -138,6 +140,7 @@ li {
     align-items: center;
     justify-content: center;
     margin: 0;
+    background-color: #1F2937;
 }
 
 .container-3 h2 {
@@ -145,12 +148,18 @@ li {
     text-align: center;
     margin-bottom: 10px;
     padding-top: 40px;
+    font-family: "Industry","sans-serif";
+    color: white;
+    font-weight:300
 }
 
 .container-3 h3 {
     font-size: 30px;
     text-align: center;
     padding-bottom: 40px;
+    font-family: "Industry","sans-serif";
+    color: white;
+    font-weight: 300;
 }
 
 
